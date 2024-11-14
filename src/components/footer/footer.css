@@ -1,0 +1,129 @@
+.footer-div {
+  height: 72vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f39f5a;
+  color: white;
+  margin: 100px 20px 0 100px;
+  border-radius: 20px;
+  padding-top: 10px;
+  min-width: 300px;
+  color: #000;
+}
+
+.footer-inner-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo-img {
+  background-image: url("../../../public/images/photo-black.jpg");
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  background-size: 200px 200px;
+  border-radius: 20px;
+}
+
+.photo-img:hover {
+  background-image: url("../../../public/images/photo-colour.jpg");
+}
+
+.photo-name {
+  margin-top: 5px;
+  color: white;
+}
+
+.photo-description-div {
+  margin-top: -20px;
+  background-color: #ae445a;
+  height: 13px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo-description {
+  margin-top: -3px;
+}
+
+.social-buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  align-items: center;
+  min-height: 60px;
+}
+
+.social-buttons-item {
+  width: 45px;
+  transition: width 0.2s ease;
+}
+
+.social-buttons-item:hover {
+  width: 60px;
+}
+
+.contact {
+  background-color: #ae445a;
+  margin: 10px 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.item {
+  margin-top: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.download-card {
+  background: linear-gradient(180deg, #ae445a, #662549);
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 10px 60px;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.download-card:hover {
+  background: linear-gradient(180deg, #662549, #ae445a);
+  color: #fff;
+}
+
+.download-icon {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 1439px) {
+  .footer-div {
+    height: 90vh;
+    margin: 0 auto;
+  }
+}
