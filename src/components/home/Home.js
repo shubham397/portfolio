@@ -44,6 +44,8 @@ function Home() {
         <section className="technical-proficiency">
           <h1>FrontEnd</h1>
           <div className="skill-card-container">
+            <SkillCard skillName="React" skillIcon={`/icons/react.svg`} />
+            <SkillCard skillName="NextJs" skillIcon={`/icons/nextjs.svg`} />
             <SkillCard
               skillName="JavaScript"
               skillIcon={`/icons/javascript.svg`}
@@ -52,10 +54,8 @@ function Home() {
               skillName="TypeScript"
               skillIcon={`/icons/typescript.svg`}
             />
-            <SkillCard skillName="JQuery" skillIcon={`/icons/jquery.svg`} />
-            <SkillCard skillName="React" skillIcon={`/icons/react.svg`} />
-            <SkillCard skillName="NextJs" skillIcon={`/icons/nextjs.svg`} />
             <SkillCard skillName="Redux" skillIcon={`/icons/redux.svg`} />
+            <SkillCard skillName="JQuery" skillIcon={`/icons/jquery.svg`} />
           </div>
           <div className="skill-card-container">
             <SkillCard skillName="HTML" skillIcon={`/icons/html.svg`} />

@@ -1,40 +1,47 @@
-.heading{
-    font-size: 50px;
-    margin-top: 0px;
-    color: #000000;
+.heading {
+  font-size: 50px;
+  margin-top: 0px;
+  color: #000000;
 }
 
-.card-container{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    overflow: auto;
-    gap: 50px;
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  overflow: auto;
+  gap: 50px;
 }
 
 .card {
-    width: 370px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: #AE445A;
-    color: #000000;
-    font-size: 20px;
-  }
+  width: 370px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ae445a;
+  color: #000000;
+  font-size: 20px;
+}
 
-  .card h3 {
-    margin-top: 0;
-    font-size: 25px;
-    color: white;
-  }
+.card h3 {
+  margin-top: 0;
+  font-size: 25px;
+  color: white;
+}
 
-  .card p {
-    font-size: 20px;
-  }
+.card p {
+  font-size: 20px;
+}
 
-  .card a {
-    text-decoration: none;
-    color: #65a6ec;
+.card a {
+  text-decoration: none;
+  color: #65a6ec;
+}
+
+@media (max-width: 1439px) {
+  .card-container {
+    width: 120%;
+    margin-left: -30px;
   }
+}

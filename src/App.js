@@ -13,17 +13,14 @@ function App() {
         <div className="div-center">
           <Header />
         </div>
-        <div
-          style={{ flex: 1, minWidth: "850px", padding: "50px" }}
-          className="body"
-        >
+        <div style={{ flex: 1, padding: "50px" }} className="body">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/work" element={<Work />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
-        <div className="div-center">
+        <div className="div-center div-center-footer">
           <Footer />
         </div>
       </div>
